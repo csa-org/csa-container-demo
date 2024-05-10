@@ -12,6 +12,8 @@ This is a simple website that demonstrates how to containerize a website using D
 
 ### Understanding the Project Structure
 1. Clone the repository and talk about it's structure
+    - Clone it with the command: `git clone https://github.com/csa-org/csa-container-demo.git`
+    - Change into the project directory: `cd csa-container-demo`
 
 2. Have everyone make the following change in the public/index.html file:
     - Change: `<title>Star Wars Web App</title>` (line 6)
