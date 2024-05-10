@@ -11,7 +11,7 @@ This is a simple website that demonstrates how to containerize a website using D
 ## Demo Steps - Images, Containers, and Registries
 
 ### Understanding the Project Structure
-1. Clone the repository and walk through it
+1. Clone the repository and talk about it's structure
 
 2. Have everyone make the following change in the public/index.html file:
     - Change: `<title>Star Wars Web App</title>` (line 6)
