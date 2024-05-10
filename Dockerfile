@@ -1,7 +1,8 @@
 # Use the official Node.js 14 image as a base.
 FROM node:20.13.1-bullseye
 
-# Perform an update on the package list inside the container and install some dependencies.
+# Perform an update on the package list inside the container and install 
+# some additional packages/dependencies.
 RUN apt-get update
 RUN apt-get install -y libaa-bin
 
@@ -14,7 +15,8 @@ COPY package.json ./
 # Install the node dependencies listed in the package.json.
 RUN npm install
 
-# Copy the rest of the application files and folders to the container. Whatever is in the .dockerignore file WILL NOT be copied.
+# Copy the rest of the application files and folders to the container. 
+# Whatever is in the .dockerignore file WILL NOT be copied.
 COPY . .
 
 # Expose the container port 8000.
